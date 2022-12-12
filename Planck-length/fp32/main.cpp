@@ -16,7 +16,7 @@ int main(int, char *[])
 
     fp32 const c = 299792458.0f;
 
-    fp32 const lp = static_cast<fp32>(sqrt((h_reduced * G) / pow(c, 3.0f)));
+    fp32 const lp = sqrtf((h_reduced * G) / powf(c, 3.0f));
 
     std::cout << std::setprecision(10) << "Planck length (fp32): " << lp << std::endl;
 
