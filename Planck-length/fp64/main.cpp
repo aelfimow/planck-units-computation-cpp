@@ -4,7 +4,7 @@
 #include <iomanip>
 
 using fp64 = double;
-static_assert(sizeof(fp64) == 4U);
+static_assert(sizeof(fp64) == 8U);
 
 int main(int, char *[])
 {
@@ -16,7 +16,7 @@ int main(int, char *[])
 
     fp64 const c = 299792458.0;
 
-    fp64 const lp = static_cast<fp64>(sqrt((h_reduced * G) / pow(c, 3.0)));
+    fp64 const lp = sqrt((h_reduced * G) / pow(c, 3.0));
 
     std::cout << std::setprecision(10) << "Planck length (fp64): " << lp << std::endl;
 
