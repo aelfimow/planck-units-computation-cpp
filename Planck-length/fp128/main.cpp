@@ -26,7 +26,7 @@ int main(int, char *[])
 
     std::string const lp_str(buffer.data());
 
-    std::cout << << "Planck length (fp128): " << lp_str << std::endl;
+    std::cout << "Planck length (fp128): " << lp_str << std::endl;
 
     return EXIT_SUCCESS;
 }
