@@ -18,7 +18,7 @@ int main(int, char *[])
 
     fp128 const c = 299792458.0Q;
 
-    fp128 const mp = sqrtq((h_reduced * G) / powq(c, 3.0Q));
+    fp128 const mp = sqrtq((h_reduced * c) / G);
 
     std::vector<char> buffer(256U);
 
