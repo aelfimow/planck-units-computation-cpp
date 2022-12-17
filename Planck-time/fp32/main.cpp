@@ -16,9 +16,9 @@ int main(int, char *[])
 
     fp32 const c = 299792458.0f;
 
-    fp32 const lp = sqrtf((h_reduced * G) / powf(c, 5.0f));
+    fp32 const T = sqrtf((h_reduced * G) / powf(c, 5.0f));
 
-    std::cout << std::setprecision(10) << "Planck time (fp32): " << lp << std::endl;
+    std::cout << std::setprecision(10) << "Planck time (fp32): " << T << std::endl;
 
     return EXIT_SUCCESS;
 }
