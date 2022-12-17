@@ -16,9 +16,9 @@ int main(int, char *[])
 
     fp80 const c = 299792458.0L;
 
-    fp80 const lp = sqrtl((h_reduced * G) / powl(c, 5.0L));
+    fp80 const T = sqrtl((h_reduced * G) / powl(c, 5.0L));
 
-    std::cout << std::setprecision(10) << "Planck time (fp80): " << lp << std::endl;
+    std::cout << std::setprecision(10) << "Planck time (fp80): " << T << std::endl;
 
     return EXIT_SUCCESS;
 }
