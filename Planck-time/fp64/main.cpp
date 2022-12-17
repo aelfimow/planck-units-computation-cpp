@@ -16,9 +16,9 @@ int main(int, char *[])
 
     fp64 const c = 299792458.0;
 
-    fp64 const lp = sqrt((h_reduced * G) / pow(c, 5.0));
+    fp64 const T = sqrt((h_reduced * G) / pow(c, 5.0));
 
-    std::cout << std::setprecision(10) << "Planck time (fp64): " << lp << std::endl;
+    std::cout << std::setprecision(10) << "Planck time (fp64): " << T << std::endl;
 
     return EXIT_SUCCESS;
 }
