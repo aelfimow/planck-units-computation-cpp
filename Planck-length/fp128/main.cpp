@@ -10,9 +10,8 @@ static_assert(sizeof(fp128) == 16U);
 
 int main(int, char *[])
 {
-    fp128 const pi = 3.1415926535897932384626433832795Q;
     fp128 const h = 6.62607015E-34Q;
-    fp128 const h_reduced = h / (2.0Q * pi);
+    fp128 const h_reduced = h / (2.0Q * M_PIq);
 
     fp128 const G = 6.67430E-11Q;
 
