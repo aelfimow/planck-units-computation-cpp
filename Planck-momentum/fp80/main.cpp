@@ -16,9 +16,9 @@ int main(int, char *[])
 
     fp80 const c = 299792458.0L;
 
-    fp80 const Ep = sqrtl((h_reduced * powl(c, 3.0L)) / G);
+    fp80 const momentum = sqrtl((h_reduced * powl(c, 3.0L)) / G);
 
-    std::cout << std::setprecision(10) << "Planck momentum (fp80): " << Ep << std::endl;
+    std::cout << std::setprecision(10) << "Planck momentum (fp80): " << momentum << std::endl;
 
     return EXIT_SUCCESS;
 }
