@@ -16,9 +16,9 @@ int main(int, char *[])
 
     fp32 const c = 299792458.0f;
 
-    fp32 const Ep = sqrtf((h_reduced * powf(c, 3.0f)) / G);
+    fp32 const momentum = sqrtf((h_reduced * powf(c, 3.0f)) / G);
 
-    std::cout << std::setprecision(10) << "Planck momentum (fp32): " << Ep << std::endl;
+    std::cout << std::setprecision(10) << "Planck momentum (fp32): " << momentum << std::endl;
 
     return EXIT_SUCCESS;
 }
