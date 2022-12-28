@@ -16,9 +16,9 @@ int main(int, char *[])
 
     fp64 const c = 299792458.0;
 
-    fp64 const Ep = sqrt((h_reduced * pow(c, 3.0)) / G);
+    fp64 const momentum = sqrt((h_reduced * pow(c, 3.0)) / G);
 
-    std::cout << std::setprecision(10) << "Planck momentum (fp64): " << Ep << std::endl;
+    std::cout << std::setprecision(10) << "Planck momentum (fp64): " << momentum << std::endl;
 
     return EXIT_SUCCESS;
 }
