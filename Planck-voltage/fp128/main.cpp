@@ -12,7 +12,7 @@ int main(int, char *[])
 {
     fp128 const c = 299792458.0Q;
 
-    fp128 const eps0 = 8.8541878128E-12f;
+    fp128 const eps0 = 8.8541878128E-12Q;
 
     fp128 const G = 6.67430E-11Q;
 
