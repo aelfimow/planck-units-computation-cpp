@@ -16,7 +16,7 @@ int main(int, char *[])
 
     fp128 const G = 6.67430E-11Q;
 
-    fp128 const Up = sqrtq(powq(c, 4.0Q) / (4.0Q * pi * eps0 * G));
+    fp128 const Up = sqrtq(powq(c, 4.0Q) / (4.0Q * M_PIq * eps0 * G));
 
     std::vector<char> buffer(256U);
 
