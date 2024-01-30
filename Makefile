@@ -14,5 +14,7 @@ CXXFLAGS += -Wfloat-conversion
 CXXFLAGS += -Wfloat-equal
 CXXFLAGS += -fext-numeric-literals
 
+export CXXFLAGS
+
 all:
 	${MAKE} -C Planck-angular-frequency
