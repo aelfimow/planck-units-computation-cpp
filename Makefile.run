@@ -1,0 +1,23 @@
+FP32_EXE = fp32/main.exe
+FP64_EXE = fp64/main.exe
+FP80_EXE = fp80/main.exe
+FP128_EXE = fp128/main.exe
+
+all:
+	cd Planck-angular-frequency && $(FP32_EXE) && $(FP64_EXE) && $(FP80_EXE) && $(FP128_EXE)
+	cd Planck-area && $(FP32_EXE) && $(FP64_EXE) && $(FP80_EXE) && $(FP128_EXE)
+	cd Planck-density && $(FP32_EXE) && $(FP64_EXE) && $(FP80_EXE) && $(FP128_EXE)
+	cd Planck-electric-charge && $(FP32_EXE) && $(FP64_EXE) && $(FP80_EXE) && $(FP128_EXE)
+	cd Planck-electric-current && $(FP32_EXE) && $(FP64_EXE) && $(FP80_EXE) && $(FP128_EXE)
+	cd Planck-energy && $(FP32_EXE) && $(FP64_EXE) && $(FP80_EXE) && $(FP128_EXE)
+	cd Planck-force && $(FP32_EXE) && $(FP64_EXE) && $(FP80_EXE) && $(FP128_EXE)
+	cd Planck-impedance && $(FP32_EXE) && $(FP64_EXE) && $(FP80_EXE) && $(FP128_EXE)
+	cd Planck-length && $(FP32_EXE) && $(FP64_EXE) && $(FP80_EXE) && $(FP128_EXE)
+	cd Planck-mass && $(FP32_EXE) && $(FP64_EXE) && $(FP80_EXE) && $(FP128_EXE)
+	cd Planck-momentum && $(FP32_EXE) && $(FP64_EXE) && $(FP80_EXE) && $(FP128_EXE)
+	cd Planck-power && $(FP32_EXE) && $(FP64_EXE) && $(FP80_EXE) && $(FP128_EXE)
+	cd Planck-pressure && $(FP32_EXE) && $(FP64_EXE) && $(FP80_EXE) && $(FP128_EXE)
+	cd Planck-temperature && $(FP32_EXE) && $(FP64_EXE) && $(FP80_EXE) && $(FP128_EXE)
+	cd Planck-time && $(FP32_EXE) && $(FP64_EXE) && $(FP80_EXE) && $(FP128_EXE)
+	cd Planck-voltage && $(FP32_EXE) && $(FP64_EXE) && $(FP80_EXE) && $(FP128_EXE)
+	cd Planck-volume && $(FP32_EXE) && $(FP64_EXE) && $(FP80_EXE) && $(FP128_EXE)
