@@ -1,0 +1,85 @@
+cd Planck-angular-frequency && fp32/main.exe && fp64/main.exe && fp80/main.exe && fp128/main.exe
+Planck angular frequency (fp32): inf
+Planck angular frequency (fp64): 1.85485863e+43
+Planck angular frequency (fp80): 1.85485863e+43
+Planck angular frequency (fp128): 1.854858629793862650258407189443702908e+43
+cd Planck-area && fp32/main.exe && fp64/main.exe && fp80/main.exe && fp128/main.exe
+Planck area (fp32): 0
+Planck area (fp64): 2.612280304e-70
+Planck area (fp80): 2.612280304e-70
+Planck area (fp128): 2.612280303974872172181649103645757406e-70
+cd Planck-density && fp32/main.exe && fp64/main.exe && fp80/main.exe && fp128/main.exe
+Planck density (fp32): inf
+Planck density (fp64): 5.154848503e+96
+Planck density (fp80): 5.154848503e+96
+Planck density (fp128): 5.154848503244932975406333574675819456e+96
+cd Planck-electric-charge && fp32/main.exe && fp64/main.exe && fp80/main.exe && fp128/main.exe
+Planck electric charge (fp32): 1.83324565e-18
+Planck electric charge (fp64): 1.875546038e-18
+Planck electric charge (fp80): 1.875546038e-18
+Planck electric charge (fp128): 1.875546037779669872858296669301412570e-18
+cd Planck-electric-current && fp32/main.exe && fp64/main.exe && fp80/main.exe && fp128/main.exe
+Planck electric current (fp32): inf
+Planck electric current (fp64): 3.478872754e+25
+Planck electric current (fp80): 3.478872754e+25
+Planck electric current (fp128): 3.478872753751306612675967892983052135e+25
+cd Planck-energy && fp32/main.exe && fp64/main.exe && fp80/main.exe && fp128/main.exe
+Planck energy (fp32): inf
+Planck energy (fp64): 1956081637
+Planck energy (fp80): 1956081637
+Planck energy (fp128): 1.956081636698372829061018199962984294e+09
+cd Planck-force && fp32/main.exe && fp64/main.exe && fp80/main.exe && fp128/main.exe
+Planck force (fp32): inf
+Planck force (fp64): 1.210255564e+44
+Planck force (fp80): 1.210255564e+44
+Planck force (fp128): 1.210255564338206288189593027905802265e+44
+cd Planck-impedance && fp32/main.exe && fp64/main.exe && fp80/main.exe && fp128/main.exe
+Planck impedance (fp32): 29.97924614
+Planck impedance (fp64): 29.97924582
+Planck impedance (fp80): 29.97924582
+Planck impedance (fp128): 2.997924581632127703143460984783796973e+01
+cd Planck-length && fp32/main.exe && fp64/main.exe && fp80/main.exe && fp128/main.exe
+Planck length (fp32): 0
+Planck length (fp64): 1.616255024e-35
+Planck length (fp80): 1.616255024e-35
+Planck length (fp128): 1.616255024423705286500047697249314165e-35
+cd Planck-mass && fp32/main.exe && fp64/main.exe && fp80/main.exe && fp128/main.exe
+Planck mass (fp32): 2.176434322e-08
+Planck mass (fp64): 2.176434343e-08
+Planck mass (fp80): 2.176434343e-08
+Planck mass (fp128): 2.176434342717898213927914919024147104e-08
+cd Planck-momentum && fp32/main.exe && fp64/main.exe && fp80/main.exe && fp128/main.exe
+Planck momentum (fp32): 6.524785519
+Planck momentum (fp64): 6.524786013
+Planck momentum (fp80): 6.524786013
+Planck momentum (fp128): 6.524786012790131061472594483891200357e+00
+cd Planck-power && fp32/main.exe && fp64/main.exe && fp80/main.exe && fp128/main.exe
+Planck power (fp32): inf
+Planck power (fp64): 3.628254904e+52
+Planck power (fp80): 3.628254904e+52
+Planck power (fp128): 3.628254904411280064474144638555430537e+52
+cd Planck-pressure && fp32/main.exe && fp64/main.exe && fp80/main.exe && fp128/main.exe
+Planck pressure (fp32): inf
+Planck pressure (fp64): 4.632946788e+113
+Planck pressure (fp80): 4.632946788e+113
+Planck pressure (fp128): 4.632946787895116622627852811132215881e+113
+cd Planck-temperature && fp32/main.exe && fp64/main.exe && fp80/main.exe && fp128/main.exe
+Planck temperature (fp32): 1.416784076e+32
+Planck temperature (fp64): 1.416784162e+32
+Planck temperature (fp80): 1.416784162e+32
+Planck temperature (fp128): 1.416784162157342546194592687904734844e+32
+cd Planck-time && fp32/main.exe && fp64/main.exe && fp80/main.exe && fp128/main.exe
+Planck time (fp32): 0
+Planck time (fp64): 5.391246448e-44
+Planck time (fp80): 5.391246448e-44
+Planck time (fp128): 5.391246448313603961644851309932933972e-44
+cd Planck-voltage && fp32/main.exe && fp64/main.exe && fp80/main.exe && fp128/main.exe
+Planck voltage (fp32): inf
+Planck voltage (fp64): 1.042939814e+27
+Planck voltage (fp80): 1.042939814e+27
+Planck voltage (fp128): 1.042939814484129389836631092785092115e+27
+cd Planck-volume && fp32/main.exe && fp64/main.exe && fp80/main.exe && fp128/main.exe
+Planck volume (fp32): 0
+Planck volume (fp64): 4.222111167e-105
+Planck volume (fp80): 4.222111167e-105
+Planck volume (fp128): 4.222111166502471292660488305472592126e-105
