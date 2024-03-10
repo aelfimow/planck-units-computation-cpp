@@ -2,15 +2,15 @@
 #include <cmath>
 #include <iostream>
 #include <iomanip>
+#include <numbers>
 
 using fp64 = double;
 static_assert(sizeof(fp64) == 8U);
 
 int main(int, char *[])
 {
-    fp64 const pi = 3.1415926535897932384626433832795;
     fp64 const h = 6.62607015E-34;
-    fp64 const h_reduced = h / (2.0 * pi);
+    fp64 const h_reduced = h / (2.0 * std::numbers::pi_v<fp64>);
 
     fp64 const G = 6.67430E-11;
 
