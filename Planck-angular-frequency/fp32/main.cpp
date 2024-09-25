@@ -3,9 +3,8 @@
 #include <iostream>
 #include <iomanip>
 #include <numbers>
+#include "fp32.h"
 
-using fp32 = float;
-static_assert(sizeof(fp32) == 4U);
 
 extern fp32 Reduced_Planck_constant();
 extern fp32 Gravitational_constant();
