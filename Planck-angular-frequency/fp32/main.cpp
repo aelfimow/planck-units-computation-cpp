@@ -7,10 +7,11 @@
 using fp32 = float;
 static_assert(sizeof(fp32) == 4U);
 
+extern fp32 Reduced_Planck_constant();
+
 int main(int, char *[])
 {
-    fp32 const h = 6.62607015E-34f;
-    fp32 const h_reduced = h / (2.0f * std::numbers::pi_v<fp32>);
+    fp32 const h_reduced = Reduced_Planck_constant();
 
     fp32 const G = 6.67430E-11f;
 
