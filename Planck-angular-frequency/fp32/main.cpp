@@ -2,12 +2,9 @@
 #include <cmath>
 #include <iostream>
 #include <iomanip>
-#include <numbers>
-#include "fp32.h"
 
-extern fp32 Reduced_Planck_constant();
-extern fp32 Gravitational_constant();
-extern fp32 Speed_of_light();
+#include "fp32.h"
+#include "Constants_h.h"
 
 int main(int, char *[])
 {
