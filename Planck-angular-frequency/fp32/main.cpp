@@ -8,12 +8,13 @@ using fp32 = float;
 static_assert(sizeof(fp32) == 4U);
 
 extern fp32 Reduced_Planck_constant();
+extern fp32 Gravitational_constant();
 
 int main(int, char *[])
 {
     fp32 const h_reduced = Reduced_Planck_constant();
 
-    fp32 const G = 6.67430E-11f;
+    fp32 const G = Gravitational_constant();
 
     fp32 const c = 299792458.0f;
 
