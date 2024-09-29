@@ -2,19 +2,17 @@
 #include <cmath>
 #include <iostream>
 #include <iomanip>
-#include <numbers>
 
-using fp32 = float;
-static_assert(sizeof(fp32) == 4U);
+#include "fp32.h"
+#include "Constants.h"
 
 int main(int, char *[])
 {
-    fp32 const h = 6.62607015E-34f;
-    fp32 const h_reduced = h / (2.0f * std::numbers::pi_v<fp32>);
+    fp32 const h_reduced = Reduced_Planck_constant();
 
-    fp32 const G = 6.67430E-11f;
+    fp32 const G = Gravitational_constant();
 
-    fp32 const c = 299792458.0f;
+    fp32 const c = Speed_of_light();
 
     fp32 const lp2 = (h_reduced * G) / powf(c, 3.0f);
 
