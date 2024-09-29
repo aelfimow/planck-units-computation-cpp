@@ -17,6 +17,7 @@ CXXFLAGS += -fext-numeric-literals
 export CXXFLAGS
 
 .PHONY: Planck-angular-frequency
+.PHONY: Planck-area
 
 all:
 	${MAKE} -C Planck-angular-frequency
@@ -39,3 +40,6 @@ all:
 
 Planck-angular-frequency:
 	${MAKE} -C Planck-angular-frequency
+
+Planck-area:
+	${MAKE} -C Planck-area
