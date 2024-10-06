@@ -5,17 +5,16 @@
 #include <string>
 #include <quadmath.h>
 
-using fp128 = __float128;
-static_assert(sizeof(fp128) == 16U);
+#include "fp128.h"
+#include "Constants.h"
 
 int main(int, char *[])
 {
-    fp128 const h = 6.62607015E-34Q;
-    fp128 const h_reduced = h / (2.0Q * M_PIq);
+    fp128 const h_reduced = Reduced_Planck_constant();
 
-    fp128 const G = 6.67430E-11Q;
+    fp128 const G = Gravitational_constant();
 
-    fp128 const c = 299792458.0Q;
+    fp128 const c = Speed_of_light();
 
     fp128 const lp2 = (h_reduced * G) / powq(c, 3.0Q);
 
